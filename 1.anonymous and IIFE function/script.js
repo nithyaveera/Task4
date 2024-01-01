@@ -122,7 +122,7 @@ console.log(prim)
 
 let ispalindroms = function (arr) {
     let flag = [];
-    for (let ind = 0; ind < arr.length; ind++) { // Fixed incrementing the loop variable
+    for (let ind = 0; ind < arr.length; ind++) {
         let str = arr[ind];
         let ispalind = true;
         for (let i = 0, j = str.length - 1; i < j; i++, j--) {
